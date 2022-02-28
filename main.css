@@ -1,0 +1,120 @@
+#selecionaveis{
+    display: flex;
+    width: 200px;
+    height: auto;
+    background-color: rgb(138, 138, 143);
+    padding: 15px;
+    border-radius: 2%;
+    border-style: none;
+    margin-right: 15px;
+    position: absolute;
+}
+
+#manipulador{
+    display: flex;
+    flex-direction: column;
+
+}
+#manipulador *{
+    margin-bottom: 2px;
+}
+
+body{
+    background-color: rgb(131, 158, 248);
+    height: 100vh;
+    width: 100vw;
+
+}
+
+#font{
+    margin-top: 5px;
+}
+
+input[type=range]{
+    appearance:none;
+    margin: 0%;
+    background-color: rgb(138, 138, 143);
+}
+
+input[type=range]::-webkit-slider-runnable-track{
+    width: 100%;
+    height: 4px;
+    cursor: pointer;
+    background: rgb(61, 61, 85);
+    border-radius: 2px;
+    border: 0;
+    appearance: none;
+    box-shadow: 0px 0px 2px 0px;
+
+
+}
+
+input[type=range]::-webkit-slider-thumb{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background: #454e4e;
+    box-shadow: 0px 0px 2px 2px rgb(118, 121, 121);
+    cursor: pointer;
+    margin-top: -5px;
+    appearance: none;
+}
+
+/* form{
+    background-color: transparent;
+} */
+
+input[type=text]{
+    border-style: none;
+    background-color: rgb(255, 255, 255);
+    box-shadow: -5px -5px -5px -5px rgb(61, 61, 85);
+    border-radius: 2px;
+    outline: none;
+}
+
+
+select{
+    outline: none;
+    /* width: fit-content; */
+    /* appearance: none; */
+  /* Add some styling */
+
+  width: max-content;
+  height: fit-content;
+  float: right;
+  padding: 0px 5px;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #333;
+  background-color: #ffffff;
+  background-image: none;
+  border: 1px solid #0ebeff;
+  word-break: normal;
+
+}
+
+select::-ms-expand{
+    display: none;
+}
+
+
+input[type=number]{
+    outline: none;
+    border-radius: 2px;
+    border-style: none;
+    width: max-content;
+}
+
+
+
+
+#divH1{
+    background-color: #333;
+     height: 50%;
+     width: 50%;
+     margin-left:  250px;
+     border-color: black;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
